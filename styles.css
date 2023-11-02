@@ -1,0 +1,47 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+body{
+    align-items: center;
+    flex-direction: column;
+    background-image:url('https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=1200&h=630');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1{
+    color:chartreuse;
+}
+h2{
+    text-align: center;
+}
+.Full{
+    margin: 1%;
+    width: 65%;
+    height: 70vh;
+    flex-wrap: wrap;
+    overflow: auto;
+
+}
+.border{
+    border: 3px solid black;
+}
+
+.card{
+    width: 10%;
+    height: 20vh;
+    margin: auto;
+    margin-left: 1%;
+    flex-wrap: wrap;
+}
+label{
+    color:darkred;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10%;
+}
+.image{
+    border-radius: 50%; 
+    height: 50%;
+    width: 100%;
+}
